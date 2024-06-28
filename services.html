@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        header {
+            /* background-color: #007BFF; */
+            color: black;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .services-section {
+            padding: 40px;
+        }
+
+        .services-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: flex;
+            overflow-x: auto;
+        }
+
+        .service {
+            flex: 0 0 300px;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .service h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .service p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #777;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our Services</h1>
+        </header>
+        <section class="services-section">
+            <h2>What We Offer</h2>
+            <div class="services">
+                <div class="service">
+                    <img src="https://picsum.photos/100/100?random=1" alt="Service 1">
+                    <h3>Service One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service">
+                    <img src="https://picsum.photos/100/100?random=2" alt="Service 2">
+                    <h3>Service Two</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="service">
+                    <img src="https://picsum.photos/100/100?random=3" alt="Service 3">
+                    <h3>Service Three</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
